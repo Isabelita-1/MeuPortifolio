@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Define a codificação de caracteres -->
+  <meta charset="UTF-8" />
+  <!-- Garante responsividade em dispositivos móveis -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Título da aba -->
+  <title>Portfólio - Isabela Munhoz</title>
+  <!-- Link para o arquivo de estilos externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho do site -->
+  <header>
+    <h1>Isabela Munhoz</h1>
+    <p>Analista de Logística Pleno | Renault Group </p>
+  </header>
+
+  <!-- Seção sobre mim -->
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou analista pleno de logística em uma multinacional francesa, onde trabalho diariamente com tecnologia e tudo o que envolve inovação e otimização de processos e projetos. Sou apaixonada por design e soluções criativas, e estudo desenvolvimento web para ampliar ainda mais minhas habilidades técnicas.</p>
+  </section>
+
+  <!-- Seção de projetos -->
+  <section id="projetos">
+    <h2>Projetos</h2>
+
+    <!-- Projeto 1 -->
+    <article>
+      <h3>SAC para Portal Frotista</h3>
+      <p>Sistema de Atendimento ao Cliente voltado para empresas que operam com frotas de veículos, como Localiza e Movida.</p>
+      <img src="imagens/projeto1.jpg" alt="SAC para frotistas" />
+    </article>
+
+    <!-- Projeto 2 -->
+    <article>
+      <h3>Nossa Igreja Cuida</h3>
+      <p>Aplicativo gratuito para membros da igreja, com funcionalidades voltadas à saúde e bem-estar.</p>
+      <img src="imagens/projeto2.jpg" alt="App Nossa Igreja Cuida" />
+    </article>
+
+    <!-- Projeto 3 -->
+    <article>
+      <h3>To-Do List para Idosos</h3>
+      <p>Aplicativo simples e acessível para ajudar idosos a se organizarem com tarefas e lembretes.</p>
+      <img src="imagens/projeto3.jpg" alt="To-Do List para idosos" />
+    </article>
+  </section>
+
+  <!-- Seção de contato -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <form id="form-contato">
+      <!-- Campo de nome -->
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <!-- Campo de email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <!-- Campo de mensagem -->
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <!-- Botão de envio -->
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé do site -->
+  <footer>
+    <p>&copy; 2025 Isabela Munhoz</p>
+  </footer>
+
+  <!-- Script JavaScript para validação do formulário -->
+  <script src="script.js"></script>
+</body>
+</html>
